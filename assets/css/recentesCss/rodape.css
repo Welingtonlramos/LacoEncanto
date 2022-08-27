@@ -1,0 +1,12 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: var(--branco);
+    border-radius: 20px;
+    margin: 0.5rem 1rem;
+}
+
+.rodape__texto {
+    font-family: var(--font-principal);
+    padding: .3em 2rem
+}

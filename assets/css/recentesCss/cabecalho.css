@@ -1,0 +1,56 @@
+.cabecalho__container-imagem {
+    width: 100%;
+}
+
+.cabecalho__container-lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-redesocial {
+    border-radius: 50px;
+    width: 30px;
+    transition: all;
+}
+
+.logo-redesocial:hover {
+    transform: scale(1.2);
+}
+
+.cabecalho__barra {
+    background-color: var(--branco);
+    border-radius: 50px;
+    display: flex;
+    font-family: var(--font-principal);
+    justify-content: space-around;
+    margin: .5rem 1rem;
+    padding: .3em;
+}
+
+.cabecalho__barra-link:nth-child(2) {
+    border-left: 2px solid var(--cinza);
+    border-right: 2px solid var(--cinza);
+    padding: 0 1rem;
+}
+
+.cabecalho__barra-link:hover, .cabecalho__barra-link.ativo {
+    border-bottom: 2px dotted var(--rosa-fonte);
+}
+
+@media screen and (min-width: 820px) {
+    .logo-redesocial {
+        width: 50px;
+    }
+
+    .cabecalho__barra {
+        font-size: 25px;
+    }
+
+    .cabecalho__barra-link:nth-child(2) {
+        padding: 0 4rem;
+    }
+
+    .cabecalho__barra-link:hover, .cabecalho__barra-link.ativo {
+        border-bottom: 4px dotted var(--rosa-fonte);
+    }
+}

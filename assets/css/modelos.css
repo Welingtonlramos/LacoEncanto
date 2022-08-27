@@ -1,0 +1,18 @@
+@import url("./recentesCss/cabecalho.css");
+@import url("./recentesCss/rodape.css");
+
+@import url("./modelosCss/main.css");
+
+:root {
+    --branco: #fefefe;
+    --cinza: #dbdbdb;
+    --cinza-secundario: #a5a5a5;
+    --rosa-principal: #f4e6f4;
+    --rosa-fonte: #e04e7f;
+
+    --font-principal: "Poppins";
+    }
+
+body {
+    background-color: var(--rosa-principal);
+}
