@@ -1,6 +1,8 @@
-@import url("./recentesCss/cabecalho.css");
+@import url("./C&R/cabecalho.css");
+@import url("./C&R/rodape.css");
+
 @import url("./recentesCss/main.css");
-@import url("./recentesCss/rodape.css");
+@import url("./modelosCss/main.css");
 
 :root {
     --branco: #fefefe;
@@ -15,4 +17,15 @@
 
 body {
     background-color: var(--rosa-principal);
+}
+
+.botao {
+    align-items: center;
+    background: var(--rosa-fonte);
+    border-radius: 10px;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1em;
+    margin-left: .5rem;
 }

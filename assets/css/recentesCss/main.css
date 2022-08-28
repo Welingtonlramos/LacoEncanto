@@ -44,16 +44,6 @@
     display: flex;
 }
 
-.botao {
-    align-items: center;
-    background: var(--rosa-fonte);
-    border-radius: 10px;
-    color: var(--branco);
-    font-size: 18px;
-    font-weight: bold;
-    padding: 1em;
-    margin-left: .5rem;
-}
 
 .caixa__botao-adicionar {
     display: none;
