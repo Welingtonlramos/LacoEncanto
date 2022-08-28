@@ -32,18 +32,22 @@
 }
 
 .caixa__preco {
+    color: var(--cinza-ecuro);
     font-weight: bold;
 }
 
 .caixa__data {
-    color: var(--cinza-secundario);
     font-size: 15px;
+    margin-top: .3rem;
 }
 
 .caixa__botoes {
     display: flex;
 }
 
+.botao {
+    font-size: 18px;
+}
 
 .caixa__botao-adicionar {
     display: none;
@@ -53,12 +57,26 @@
     display: flex;
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 768px) {
     .caixa__nome {
-        font-size: 23px;
+        font-size: 30px;
+    }
+
+    .caixa__preco {
+        font-size: 25px;
     }
 
     .botao {
         font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .caixa__nome {
+        font-size: 30px;
+    }
+
+    .botao {
+        font-size: 30px;
     }
 }

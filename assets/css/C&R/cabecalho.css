@@ -37,7 +37,13 @@
     border-bottom: 2px dotted var(--rosa-fonte);
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 500px) {
+    .logo-redesocial {
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
     .logo-redesocial {
         width: 50px;
     }
@@ -52,5 +58,15 @@
 
     .cabecalho__barra-link:hover, .cabecalho__barra-link.ativo {
         border-bottom: 4px dotted var(--rosa-fonte);
+    }
+}
+
+@media screen and (min-width: 910px) {
+    .logo-redesocial {
+        width: 60px;
+    }
+
+    .cabecalho__barra {
+        font-size: 30px;
     }
 }
