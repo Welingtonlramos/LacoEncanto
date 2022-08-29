@@ -43,3 +43,13 @@
         font-size: 35px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .modelos {
+        margin: 0 5em;
+    }   
+
+    .modelos__lista-item {
+        font-size: 20px;
+    }
+}

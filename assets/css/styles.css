@@ -8,15 +8,16 @@
     --branco: #fefefe;
     --cinza: #dbdbdb;
     --cinza-claro: #fff1ff;
+    --cinza-escuro: #3b363b;
     --cinza-secundario: #a5a5a5;
-    --cinza-escuro: #333333;
     --rosa-principal: #f4e6f4;
     --rosa-fonte: #e04e7f;
+    --rosa-sombra: #d46dd488;
 
     --font-principal: "Poppins";
     }
 
-body {
+ body {
     background-color: var(--rosa-principal);
 }
 

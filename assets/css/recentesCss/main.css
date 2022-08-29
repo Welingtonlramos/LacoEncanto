@@ -32,11 +32,12 @@
 }
 
 .caixa__preco {
-    color: var(--cinza-ecuro);
+    color: var(--cinza-escuro);
     font-weight: bold;
 }
 
 .caixa__data {
+    color: var(--cinza-secundario);
     font-size: 15px;
     margin-top: .3rem;
 }
@@ -79,4 +80,32 @@
     .botao {
         font-size: 30px;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    .produtos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 0 10%;
+        width: calc(100% - 10%);
+    }
+
+    .postagem {
+        margin: 1em 2em;
+        width: calc(50% - 120px);
+    }
+
+    .post-imagem {
+        width: 90%;
+    }
+
+    .caixa__nome {
+        font-size: 20px;
+    }
+
+    .botao {
+        font-size: 18px;
+    }
+
 }
