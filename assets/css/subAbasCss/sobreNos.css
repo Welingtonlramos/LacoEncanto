@@ -1,0 +1,24 @@
+.corpo-sobreNos {
+    background: var(--branco);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 2rem 5%;
+    width: 90%;
+}
+
+.container-sobre {
+    margin: 0 2rem;
+}
+
+.container-titulo {
+    color: var(--rosa-fonte);
+    font-family: var(--font-logo);
+    font-size: 50px;
+    padding: .8rem;
+}
+
+.container-descricao {
+    font-family: var(--font-principal);
+    margin-bottom: 3rem;
+}

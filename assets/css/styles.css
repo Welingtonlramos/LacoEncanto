@@ -4,6 +4,11 @@
 @import url("./recentesCss/main.css");
 @import url("./modelosCss/main.css");
 
+@font-face {
+    font-family: "Bealtiful";
+    src: url("../font/The\ Beautiful\ Secret.ttf") format("truetype");
+}
+
 :root {
     --branco: #fefefe;
     --cinza: #dbdbdb;
@@ -12,9 +17,11 @@
     --cinza-secundario: #a5a5a5;
     --rosa-principal: #f4e6f4;
     --rosa-fonte: #e04e7f;
+    --rosa-nude: #d6afd4;
     --rosa-sombra: #d46dd488;
 
     --font-principal: "Poppins";
+    --font-logo: "Bealtiful";
     }
 
  body {
