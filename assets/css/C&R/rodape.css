@@ -1,12 +1,36 @@
 .rodape {
-    display: flex;
-    justify-content: center;
     background-color: var(--branco);
     border-radius: 20px;
-    margin: 0.5rem 1rem;
+    margin: 0 1rem;
 }
 
 .rodape__texto {
+    display: flex;
     font-family: var(--font-principal);
-    padding: .3em 2rem
+    justify-content: center;
+    padding: 1em 2rem;
+}
+
+.rodape__informacoes {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .rodape__informacoes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rodape__informacoes-lista {
+        width: 50%;
+    }
+
+    .rodape__informacoes-lista:nth-child(1) {  
+        margin-left: 2em;
+    }
+
+    .rodape__informacoes-item {
+        margin-bottom: 2rem;
+    }
 }

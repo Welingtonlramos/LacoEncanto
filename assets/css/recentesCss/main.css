@@ -44,9 +44,11 @@
 
 .caixa__botoes {
     display: flex;
+    margin: .5rem 0;
 }
 
-.botao {
+.caixa__botao-quero {
+    display: flex;
     font-size: 18px;
 }
 
@@ -54,9 +56,12 @@
     display: none;
 }
 
-.caixa__botao-quero {
-    display: flex;
+@media screen and (min-width: 450px) {
+    .caixa__botoes {
+        margin: 0;
+    }
 }
+
 
 @media screen and (min-width: 768px) {
     .caixa__nome {
