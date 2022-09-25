@@ -15,6 +15,11 @@
     display: none;
 }
 
+.fa-solid {
+    color: var(--rosa-fonte);
+    padding-right: .5rem;
+}
+
 @media screen and (min-width: 1200px) {
 
     .rodape__informacoes {
@@ -36,11 +41,6 @@
 
     .rodape__informacoes-item {
         margin-bottom: 2rem;
-    }
-
-    .fa-heart {
-        color: var(--rosa-fonte);
-        padding-right: .5rem;
     }
 
     .rodape__link {

@@ -99,7 +99,7 @@
     .postagem {
         margin: 1em 2em;
         transition: 1s;
-        width: calc(50% - 120px);
+        width: calc(30% - 50px);
     }
 
     .postagem:hover {
@@ -107,6 +107,7 @@
     }
 
     .post-imagem {
+        height: calc(100vh - 55vh);
         width: 90%;
     }
 
