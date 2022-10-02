@@ -7,8 +7,8 @@
     width: 90%;
 }
 
-.container-sobre {
-    margin: 0 2rem;
+.container {
+    padding: 1rem;
 }
 
 .container-titulo {
@@ -16,9 +16,40 @@
     font-family: var(--font-logo);
     font-size: 50px;
     padding: .8rem;
+    text-align: center;
+}
+
+.foto-sobreNos {
+    border-radius: 10px;
+    float: right;
+    margin-left: .5rem;
+    width: 10rem;
 }
 
 .container-descricao {
     font-family: var(--font-principal);
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 840px) {
+    .container-descricao {
+        margin: 0 5rem 1.5rem 5rem;
+    }
+
+    .foto-sobreNos {
+        margin: 0 5rem 6rem 5rem;;
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .foto-sobreNos {
+        margin: 0 5rem 0 5rem;;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .foto-sobreNos {
+        width: 15rem;
+    }
 }

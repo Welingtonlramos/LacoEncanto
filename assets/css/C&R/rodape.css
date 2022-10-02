@@ -1,7 +1,7 @@
 .rodape {
     background-color: var(--branco);
     border-radius: 20px;
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 .rodape__texto {
@@ -11,57 +11,70 @@
     padding: 1em 2rem;
 }
 
-.rodape__informacoes {
-    display: none;
-}
-
 .fa-solid {
     color: var(--rosa-fonte);
     padding-right: .5rem;
 }
 
-@media screen and (min-width: 1200px) {
+.rodape__informacoes {
+    display: flex;
+    font-family: var(--font-principal);
+    justify-content: space-between;
+}
 
-    .rodape__informacoes {
-        display: flex;
-        font-family: var(--font-principal);
-        justify-content: space-between;
+.rodape__informacoes-lista {
+    width: 40%;
+}
+
+.rodape__informacoes-lista:nth-child(1) {  
+    border-right: 2px solid var(--rosa-principal);
+    color: var(--cinza-secundario);
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.rodape__informacoes-item {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+.rodape__link {
+    align-items: center;
+     display: flex;
+}
+
+.rodape__link-texto {
+    color: var(--cinza-secundario);
+    font-weight: 500;
+    margin-left: .5rem;
+}
+
+.subTitulo {
+    color: var(--cinza-secundario);
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: .5rem;
     }
 
+.identificacao {
+    font-weight: 400;
+    padding-top: 6rem;
+}
+
+@media screen and (min-width: 1200px) {
     .rodape__informacoes-lista {
         width: 45%;
     }
 
-    .rodape__informacoes-lista:nth-child(1) {  
-        border-right: 2px solid var(--rosa-nude);
-        color: var(--cinza-secundario);
-        font-weight: bold;
+    .rodape__informacoes-lista:nth-child(1) {
         margin-left: 2em;
     }
 
-    .rodape__informacoes-item {
-        margin-bottom: 2rem;
-    }
-
-    .rodape__link {
-        align-items: center;
-        display: flex;
-    }
-
     .rodape__link-texto {
-        color: var(--cinza-secundario);
-        font-weight: 500;
         margin-left: .8rem;
     }
 
     .subTitulo {
-        color: var(--cinza-secundario);
         font-size: 25px;
-        font-weight: 700;
-    }
-
-    .identificacao {
-        font-weight: 400;
-        padding-top: 6rem;
     }
 }
