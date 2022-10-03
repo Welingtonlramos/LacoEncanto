@@ -19,6 +19,7 @@
 }
 
 .caixa__texto {
+    align-items: center;
     display: flex;
     font-family: var(--font-principal);
     justify-content: space-between;
@@ -53,7 +54,7 @@
 }
 
 .caixa__botao-adicionar {
-    display: none;
+    display: block;
 }
 
 @media screen and (min-width: 450px) {
