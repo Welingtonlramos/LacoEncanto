@@ -12,9 +12,16 @@
 }
 
 .logo-redesocial {
-    border-radius: 50px;
+    border-radius: 10px;
     width: 30px;
     transition: all;
+}
+
+.lista-ico {
+    align-items: center;
+    color: var(--rosa-fonte);
+    display: flex;
+    font-size: 1rem;
 }
 
 .pesquisa {
@@ -49,11 +56,19 @@
     .logo-redesocial {
         width: 40px;
     }
+
+    .lista-ico {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .logo-redesocial {
         width: 50px;
+    }
+
+    .lista-ico {
+        font-size: 1.6rem;
     }
 
     .cabecalho__barra {
@@ -73,6 +88,11 @@
     .logo-redesocial {
         width: 60px;
     }
+
+    .lista-ico {
+        font-size: 1.8rem;
+    }
+
 
     .cabecalho__barra {
         font-size: 30px;
@@ -136,9 +156,9 @@
         display: block;
         font-family: var(--font-principal);
         font-size: 18px;
+        font-weight: bold;
         margin-top: .5em;
         margin-left: .3em;
-        text-decoration: underline;
     }
 
     .pesquisa {
