@@ -1,9 +1,6 @@
 @import url("./C&R/cabecalho.css");
 @import url("./C&R/rodape.css");
 
-@import url("./recentesCss/main.css");
-@import url("./modelosCss/main.css");
-
 @font-face {
     font-family: "Bealtiful";
     src: url("../font/The\ Beautiful\ Secret.ttf") format("truetype");

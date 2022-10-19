@@ -53,8 +53,8 @@
     font-size: 18px;
 }
 
-.caixa__botao-adicionar {
-    display: block;
+.botao-like {
+    display: none;
 }
 
 @media screen and (min-width: 450px) {
@@ -92,9 +92,7 @@
     .produtos {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
-        margin: 0 10%;
-        width: calc(100% - 10%);
+        justify-content: center;
     }
 
     .postagem {
