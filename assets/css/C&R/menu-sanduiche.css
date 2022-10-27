@@ -1,0 +1,37 @@
+.informacoes__menu {
+    background: var(--branco);
+    border-radius: 10px;
+    display: none;
+    font-family: var(--font-principal);
+    font-size: 25px;
+    font-weight: 400;
+    height: 100vh;
+    position: absolute;
+    top: .3rem;
+    width: 75vw;
+    z-index: 90;
+}
+
+.informacoes-lista {
+    margin-top: .7rem;
+}
+
+.informacoes__menu-item {
+    border-bottom: 2px dotted var(--rosa-nude);
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+}
+
+.icone-menu-sanduiche {
+    margin: 0 2rem 0 .6rem;
+}
+
+.aparece {
+    display: block;
+}
+
+@media screen and (min-width: 1200px) {
+    .informacoes__menu {
+        display: none;
+    }
+}

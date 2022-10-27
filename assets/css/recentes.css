@@ -1,10 +1,11 @@
 .postagem {
     background: var(--branco);
+    /*border: solid 2px var(--rosa-fonte);*/
     border-radius: 5px;
     margin: 1em 10px;
     height: auto;
     padding-bottom: 1rem;
-    width: calc(100vw - 20px)
+    width: calc(100vw - 20px);
 }
 
 .caixa__post {

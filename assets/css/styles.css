@@ -22,6 +22,7 @@
     }
 
  body {
+   /*background: url("../img/bolinha.png");*/
     background-color: var(--rosa-principal);
 }
 
