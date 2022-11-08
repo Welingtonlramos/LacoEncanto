@@ -1,3 +1,5 @@
+@import url("./barra-navegacao.css");
+
 .rodape {
     background-color: var(--branco);
     border-radius: 20px;

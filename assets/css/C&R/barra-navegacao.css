@@ -1,0 +1,42 @@
+.barra-bottom {
+    background-color: var(--branco);
+    border-radius: 5px;
+    border-top: 2px solid var(--rosa-fonte);
+    bottom: 0;
+    margin-top: 1rem;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+
+.barra__lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra__lista-item {
+    font-size: 25px;
+    padding: .5rem;
+}
+
+.barra-itens__botoes {
+    padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 720px) {
+    .barra__lista-item {
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 930px) {
+    .barra__lista-item {
+        font-size: 40px;
+        padding: .5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .barra-bottom {
+        display: none;
+    }
+}

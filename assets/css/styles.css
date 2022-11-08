@@ -8,22 +8,21 @@
 
 :root {
     --branco: #fefefe;
-    --cinza: #dbdbdb;
-    --cinza-claro: #fff1ff;
     --cinza-escuro: #3b363b;
-    --cinza-secundario: #a5a5a5;
+    --cinza-secundario: #9e9e9e;
     --rosa-principal: #f4e6f4;
     --rosa-fonte: #e04e7f;
-    --rosa-nude: #d6afd4;
+    --rosa-nude: #f0d6ee;
     --rosa-sombra: #d46dd488;
+    --sombra: rgba(105, 62, 100, 0.2);
 
     --font-principal: "Poppins";
     --font-logo: "Bealtiful";
     }
 
  body {
-   /*background: url("../img/bolinha.png");*/
     background-color: var(--rosa-principal);
+    scroll-behavior: smooth;
 }
 
 .botao {
