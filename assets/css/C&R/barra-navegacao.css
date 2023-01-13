@@ -1,3 +1,7 @@
+.pesquisa-background {
+    height: 100%;
+}
+
 .barra-bottom {
     background-color: var(--branco);
     border-radius: 5px;
@@ -36,6 +40,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .pesquisa-background {
+        display: none;
+    }
+
     .barra-bottom {
         display: none;
     }

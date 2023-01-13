@@ -37,8 +37,37 @@
     font-size: 1rem;
 }
 
-.pesquisa {
+.some {
     display: none;
+}
+
+.pesquisa {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+}
+
+.pesquisa__input {
+    border: 2px solid var(--rosa-fonte);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    width: 100%;
+} 
+
+.pesquisa__input::placeholder {
+    font-family: var(--font-principal);
+    font-size: 15px;
+}
+
+.pesquisa__botao {
+   display: none;
+}
+
+.pesquisa-background {
+    opacity: .7;
 }
 
 .categorias__botao {
@@ -95,9 +124,8 @@
     position: absolute;
     left: .4rem;
     top: .4rem;
-    z-index: 99;
+    z-index: 11;
 }
-
 
 @media screen and (min-width: 500px) {
     .logo-redesocial {
@@ -216,17 +244,16 @@
         grid-column: 2/3;
         grid-row: 1/2;
         justify-content: center;
+        position: relative;
     }
 
     .pesquisa__input {
         border: 2px solid var(--rosa-fonte);
         border-radius: 10px;
+        box-sizing: content-box;
         padding: 1rem 3rem;
-    }
-
-    .categorias__botao {
-        display: initial;
-    }
+        width: auto;
+    } 
 
     .pesquisa__input::placeholder {
         font-family: var(--font-principal);
@@ -238,9 +265,14 @@
         background: var(--rosa-fonte);
         border-radius: 10px;
         color: var(--branco);
+        display: block;
         font-weight: bold;
         padding: 1.1rem;
         margin-left: .2rem;
+    }
+
+    .categorias__botao {
+        display: initial;
     }
 
     .categorias {
